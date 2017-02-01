@@ -2,16 +2,26 @@
 <html>
 <head>
 	<title>The Corrupt Confectionary</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
 	<h1 id="welcome">Welcome to the Corrupt Confectionary!</h1>
-	<img src="sugar.jpg" id="sugar">
-	<img src="chocolate.jpg" id="chocolate">
-	<img src="lemon.jpg" id="lemon">
-	
+	<div class="container">
+		<div class="col-xs-4" id="sugarColumn">
+			<!-- <img src="sugar.jpg" class="sugar"> -->
+		</div>
+		<div class="col-xs-4" id="chocolateColumn">
+			<!-- <img src="chocolate.jpg" class="chocolate"> -->
+		</div>
+		<div class="col-xs-4" id="lemonColumn">
+			<!-- <img src="lemon.jpg" class="lemon"> -->
+		</div>
+	</div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="cookies.min.js"></script>
-<script type="text/javascript" src="scripts.js"></script>
+<script src="js/cookies.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
